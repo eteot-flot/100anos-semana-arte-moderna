@@ -171,6 +171,7 @@ transition: color 0.5s ease;
   }
   .galeria {
     width: calc(100vw - 30px);
+    padding: 0%;
   }
   .galeria-imagem {
     float: none;
