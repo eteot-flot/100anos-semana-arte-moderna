@@ -164,9 +164,13 @@ transition: color 0.5s ease;
     display: none;
   }
   .destaque {
-    padding: 50px 50px;
+    padding: 50px 30px;
+  }
+  .texto-destaque h1 {
+    font-size: 1.8em;
   }
   .texto-destaque p {
+    font-size: 0.9em;
     line-height: 1.5;
   }
   .galeria {
@@ -199,9 +203,13 @@ transition: color 0.5s ease;
     display: none;
   }
   .destaque {
-    padding: 50px 50px;
+    padding: 50px 30px;
+  }
+  .texto-destaque h1 {
+    font-size: 2em;
   }
   .texto-destaque p {
+    font-size: 1.1em;
     line-height: 1.5;
   }
   .galeria {
