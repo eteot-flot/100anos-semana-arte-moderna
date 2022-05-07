@@ -112,10 +112,13 @@ transition: color 0.5s ease;
   color: white;
   background-color: #a38e45;
   width: 100%;
-  height: 300px;
+  height: 306px;
 }
 .tipo1 img {
   float: left;
+  border-color: black;
+  border-right-style: groove;
+  border-width: 3px;
 }
 .tipo1 h2 {
   padding-top: 20px;
@@ -131,10 +134,13 @@ transition: color 0.5s ease;
   color: white;
   background-color: #a38e45;
   width: 100%;
-  height: 300px;
+  height: 306px;
 }
 .tipo2 img {
   float: right;
+  border-color: black;
+  border-left-style: groove;
+  border-width: 3px;
 }
 .tipo2 h2 {
   padding-top: 20px;
@@ -146,10 +152,15 @@ transition: color 0.5s ease;
   padding-top: 5px;
   font-size: 0.9em;
 }
+.tipo1, .tipo2 {
+  border-color: black;
+  border-style: groove;
+  border-width: 3px
+}
 #font {
   font-size: 0.7em;
   padding-top: 50px;
-  padding-right: 350px;
+  padding-right: 450px;
 }
 #font2 {
   font-size: 0.7em;
@@ -225,38 +236,31 @@ transition: color 0.5s ease;
   .destaque {
     padding: 50px 30px;
   }
+  #conteudo-sobre {
+    width: calc(100vw - 30px);
+  }
+  .tipo1, .tipo2 {
+    width: 306px;
+    min-height: 600px;
+    margin: auto;
+  }
+  .tipo1 img, .tipo2 img {
+    float: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: groove;
+
+  }
+  #font, #font2 {
+    padding-top: 10px;
+    padding-right: 280px;
+  }
   .texto-destaque h1 {
     font-size: 1.8em;
   }
-  .texto-destaque p, .txtcont-sobre {
+  .texto-destaque p {
     font-size: 0.9em;
     line-height: 1.5;
-  }
-  #conteudo-sobre {
-    width: 412px;
-  }
-  .tipo1 {
-    height: auto;
-  }
-  .tipo1 h2, .tipo2 h2 {
-    font-size: 1.2em;
-  }
-  .tipo1 p, .tipo2 p {
-    font-size: 0.6em;
-  }
-  .tipo1 img {
-    float: none;
-  }
-  .tipo2 {
-    height: auto;
-  }
-  .tipo2 img {
-    float: none;
-  }
-  #font, #font2 {
-    padding-top: 15px;
-    padding-right: 400px;
-    font-size: 0.4em;
   }
   .galeria {
     width: calc(100vw - 30px);
@@ -289,6 +293,32 @@ transition: color 0.5s ease;
   }
   .destaque {
     padding: 50px 30px;
+  }
+  #conteudo-sobre {
+    width: calc(100vw - 30px);
+  }
+  .tipo1, .tipo2 {
+    width: 306px;
+    min-height: 600px;
+    margin: auto;
+  }
+  .tipo1 img, .tipo2 img {
+    float: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: groove;
+
+  }
+  #font, #font2 {
+    padding-top: 10px;
+    padding-right: 280px;
+  }
+  .texto-destaque h1 {
+    font-size: 1.8em;
+  }
+  .texto-destaque p {
+    font-size: 0.9em;
+    line-height: 1.5;
   }
   .texto-destaque h1 {
     font-size: 2em;
