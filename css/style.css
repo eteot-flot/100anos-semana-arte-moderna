@@ -97,6 +97,9 @@ transition: color 0.5s ease;
   font-size: 1.2em;
   line-height: 2;
 }
+.txtcont-sobre {
+  padding: 50px 0px;
+}
 #conteudo-sobre {
   padding: 0;
   margin: auto;
@@ -202,6 +205,56 @@ transition: color 0.5s ease;
   width: 100%;
   height: 450px;
 }
+.midias-turmas {
+  padding: 50px 20px;
+}
+.tip-midia {
+  margin-left: 100px;
+  height: 192px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.tip-midia img {
+float: left;
+}
+.txt-midia {
+  padding-left: 300px;
+  padding-top: 30px;
+}
+.txt-midia h2 a{
+  color: #a38e45;
+}
+.img-mid {
+  width: 80%;
+  margin-left: 10%;
+}
+.exibir-midia {
+  padding: 50px 100px 25px 100px;
+}
+.exibir-midia h1 {
+  text-align: center;
+  font-size: 2.3em;
+  color: #a38e45;
+}
+audio {
+  width: 100%;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 70px;
+}
+video {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 70px;
+}
+#live-midia {
+  width: 100%;
+  height: 29em;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 70px;
+}
 .rodape{
   background-color: #a38e45;
   padding: 25px;
@@ -255,12 +308,15 @@ transition: color 0.5s ease;
     padding-top: 10px;
     padding-right: 280px;
   }
-  .texto-destaque h1 {
+  .texto-destaque h1, .exibir-midia h1 {
     font-size: 1.8em;
   }
-  .texto-destaque p {
-    font-size: 0.9em;
+  .texto-destaque p, .txtcont-sobre {
+    font-size: 14px;
     line-height: 1.5;
+  }
+  .txtcont-sobre {
+    padding: 50px 30px;
   }
   .galeria {
     width: calc(100vw - 30px);
@@ -270,13 +326,39 @@ transition: color 0.5s ease;
     float: none;
     width: 100%;
   }
+  .galeria-imagem img {
+    width: 200px;
+  }
   .galeria-titulo {
     text-align: center;
   }
   .galeria-conteudo {
     text-align: center;
   }
-
+  .midias-turmas h3 {
+    font-size: 15px;
+  }
+  .tip-midia {
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .tip-midia img {
+    width: 150px;
+    }
+  .txt-midia {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .txt-midia h2 {
+    font-size: 25px;
+  }
+  .txt-midia p {
+    font-size: 10px;
+  }
+  #live-midia {
+    height: 16em;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   main {
@@ -295,7 +377,7 @@ transition: color 0.5s ease;
     padding: 50px 30px;
   }
   #conteudo-sobre {
-    width: calc(100vw - 30px);
+    width: calc(50vw - 30px);
   }
   .tipo1, .tipo2 {
     width: 306px;
@@ -316,16 +398,15 @@ transition: color 0.5s ease;
   .texto-destaque h1 {
     font-size: 1.8em;
   }
-  .texto-destaque p {
-    font-size: 0.9em;
-    line-height: 1.5;
-  }
-  .texto-destaque h1 {
+  .texto-destaque h1, .exibir-midia h1 {
     font-size: 2em;
   }
-  .texto-destaque p {
-    font-size: 1.1em;
+  .texto-destaque p, .txtcont-sobre {
+    font-size: 17px;
     line-height: 1.5;
+  }
+  .txtcont-sobre {
+    padding: 50px 30px;
   }
   .galeria {
     width: calc(50vw - 30px);
@@ -340,5 +421,29 @@ transition: color 0.5s ease;
   }
   .galeria-conteudo {
     text-align: center;
+  }
+  .midias-turmas h3 {
+    font-size: 15px;
+  }
+  .tip-midia {
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .tip-midia img {
+    width: 150px;
+    }
+  .txt-midia {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .txt-midia h2 {
+    font-size: 25px;
+  }
+  .txt-midia p {
+    font-size: 10px;
+  }
+  #live-midia {
+    height: 12em;
   }
 }
