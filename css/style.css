@@ -162,13 +162,16 @@ transition: color 0.5s ease;
 }
 #font {
   font-size: 0.7em;
-  padding-top: 50px;
-  padding-right: 450px;
+  margin-top: 60px;
+  padding-right: 350px;
+}
+#font a, #font2 a {
+  color: white;
 }
 #font2 {
   font-size: 0.7em;
-  padding-top: 50px;
-  padding-right: 800px;
+  margin-top: 60px;
+  padding-right: 700px;
 }
 .galeria{
   color: #a38e45;
@@ -305,8 +308,8 @@ video {
 
   }
   #font, #font2 {
-    padding-top: 10px;
-    padding-right: 280px;
+    padding-top: 3px;
+    padding-right: 180px;
   }
   .texto-destaque h1, .exibir-midia h1 {
     font-size: 1.8em;
@@ -392,8 +395,8 @@ video {
 
   }
   #font, #font2 {
-    padding-top: 10px;
-    padding-right: 280px;
+    padding-top: 3px;
+    padding-right: 180px;
   }
   .texto-destaque h1 {
     font-size: 1.8em;
