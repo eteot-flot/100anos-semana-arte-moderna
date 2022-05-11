@@ -211,6 +211,9 @@ transition: color 0.5s ease;
 .midias-turmas {
   padding: 50px 20px;
 }
+.sobre-turmas {
+  padding: 50px 20px 0 20px;
+}
 .tip-midia {
   margin-left: 100px;
   height: 192px;
@@ -341,6 +344,9 @@ video {
   .midias-turmas h3 {
     font-size: 15px;
   }
+  .sobre-turmas h3 {
+    font-size: 15px;
+  }
   .tip-midia {
     margin-left: 0px;
     margin-top: 20px;
@@ -426,6 +432,9 @@ video {
     text-align: center;
   }
   .midias-turmas h3 {
+    font-size: 15px;
+  }
+  .sobre-turmas h3 {
     font-size: 15px;
   }
   .tip-midia {
