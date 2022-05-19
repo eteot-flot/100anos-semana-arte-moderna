@@ -51,6 +51,10 @@ text-decoration: none;
 color: #f6f2bb;
 }
 
+nav button {
+  display: none;
+}
+
 nav a{
 font-size: 0.8em;
 letter-spacing: 5px;
@@ -160,6 +164,10 @@ transition: color 0.5s ease;
   border-style: groove;
   border-width: 3px
 }
+.btn {
+  background-color: #a38e45;
+  color: white;
+}
 #font {
   font-size: 0.7em;
   margin-top: 60px;
@@ -211,8 +219,9 @@ transition: color 0.5s ease;
 .midias-turmas {
   padding: 50px 20px;
 }
-.sobre-turmas {
-  padding: 50px 20px 0 20px;
+#linha-sobre {
+  width: 100%;
+  padding: 0px 20px;
 }
 .tip-midia {
   margin-left: 100px;
@@ -291,6 +300,9 @@ video {
   }
   header {
     display: none;
+  }
+  nav button {
+    display: block;
   }
   .destaque {
     padding: 50px 30px;
@@ -381,6 +393,9 @@ video {
   }
   header {
     display: none;
+  }
+  nav button {
+    display: block;
   }
   .destaque {
     padding: 50px 30px;
